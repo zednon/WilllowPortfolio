@@ -1,0 +1,44 @@
+header {
+    background-color: navy;
+    height: auto;
+    color:azure;
+}
+
+footer {
+    background-color: grey;
+    height: 150px;
+}
+
+*, 
+*::before,
+*::after {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+.liNavTop {
+    display: inline-block;
+    padding: 15px 30px;
+}
+
+.liNavTop a {
+    color:antiquewhite;
+    text-decoration: none;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 50px;
+}
+
+.headertext {
+font-family: 'Shantell Sans', cursive;
+
+}
+
+.bodytext {
+    font-family: Arial, Helvetica, sans-serif;
+}
